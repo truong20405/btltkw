@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+  
+.flex {
+  display: flex;
+  align-items: center;
+}
+  
+.container {
+  padding: 0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  background: black;
+}
+  
+.login-page {
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 90px;
+}
+  
+h1 {
+  color: #0f0;
+  font-size: 64px;
+  margin-bottom: 10px;
+}
+
+#Sign{
+    text-align: center;
+    color: #0f0;
+    font-size: 45px;
+}
+
+p {
+  font-size: 1.75rem;
+  white-space: nowrap;
+  color: #0f0;
+}
+  
+form {
+  display: flex;
+  flex-direction: column;
+  background: #181818;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+  
+input {
+  height: 55px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding: 0 14px;
+  background: #333;
+  color: #0f0;
+}
+  
+input:focus {
+  outline: none;
+  border-color: #0f0;
+}
+  
+::placeholder {
+  color: #777;
+  font-size: 17px;
+}
+  
+.link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+  
+.login {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #0f0;
+  padding: 15px 0;
+  border-radius: 6px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.link .forgot {
+  color: white;
+  font-size: 14px;
+}
+  
+hr {
+  border: none;
+  height: 1px;
+  background-color: #030;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+  
+.button {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+  
+.button a {
+  padding: 15px 20px;
+  background: #0f0;
+  border-radius: 6px;
+  color: black;
+  font-size: 17.008 px;
+  font-weight: 600;
+}
+  
+.button a:hover {
+  background: #3ba626;
+}

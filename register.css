@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: #0f0;
+}
+#password{
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.register_table{
+    background-color: #181818;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#user{
+    font-size: 15px;
+    border-radius: 5px;
+}
+.button{
+    padding: 20px;
+}
+input{
+    height: 55px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding: 0 14px;
+  background: #333;
+  color: #0f0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: #181818;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+button{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 125px;
+}
+
+#register{
+    border: none;
+  outline: none;
+  cursor: pointer;
+  background: #0f0;
+  padding: 15px 0;
+  border-radius: 6px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
